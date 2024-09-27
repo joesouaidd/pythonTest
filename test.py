@@ -13,6 +13,7 @@ def anagram(strs: list[str]) -> list[list[str]]:
 
         res[tuple(word)].append(s)
 
+
     return res.values()
 
 
